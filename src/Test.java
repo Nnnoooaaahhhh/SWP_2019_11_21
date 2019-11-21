@@ -13,7 +13,7 @@ public class Test {
 		FileReader fr = new FileReader("C:\\Users\\noahg\\Desktop\\teeest.txt");
 		} 
 		catch (FileNotFoundException a) {
-			System.out.println("\n"+"DU KEK DE DATEI GIBSCH NET");
+			System.out.println("\n"+"DE DATEI GIBSCH NET");
 			a.printStackTrace();
 		} 
 			  
@@ -23,7 +23,7 @@ public class Test {
 			}
 		}
 		catch (IndexOutOfBoundsException b) {
-			System.out.println("\n"+"DEN INDEX GIBS BA DEM ARRAY NET DU KEK");
+			System.out.println("\n"+"DEN INDEX GIBS BA DEM ARRAY NET");
 			b.printStackTrace();
 		}
 		
